@@ -40,4 +40,32 @@ Note: This has no impact on your grade as long as you properly follow the proced
 
 [4] B. M. Xavier, R. S. Guimarães, G. Comarela and M. Martinello, "Programmable Switches for in-Networking Classification," IEEE INFOCOM 2021 - IEEE Conference on Computer Communications, Vancouver, BC, Canada.
 
+# Reproducing Code for Milestone P1
+1. Change to code directory ```cd code```
+2. Run the Jupyter notebook ```data_preprocess.ipynb```
 
+## Dependencies  
+- Python 3.12.12  
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
+- tqdm 
+- IPython
+- gc
+- sklearn
+
+## Directory Structure   
+```
+|- code
+|   |- data_preprocess.ipynb
+|- data
+|   |- links to data.txt
+|- doc
+|   |- Milestone P0 — Project Proposal and Motivation.pdf
+|   |- Milestone P1 — Initial Experiment and Evaluation Setup.pdf
+|   |- Slides Milestone P0 — Project Proposal and Motivation.pdf
+|   |- Slides Milestone P1 — Initial Experiment and Evaluation Setup.pdf
+|- README.mp
+|- references.bib
+```
