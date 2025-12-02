@@ -152,15 +152,16 @@
 - The test and train (.csv) files found in the **data** directory, are based on the output of the [pcap preprocessing notebook](./code/pcap-preprocessing.ipynb) which parses the pcap files and extracts the features needed to train the model for online deployment.
 
 ## How to Run    
-- Download the CSV file for data preprocessing and offline analysis: **[link to the dataset](https://www.kaggle.com/datasets/devendra416/ddos-datasets)**
+- Download the CSV file for data preprocessing and offline analysis: **[link to the dataset](https://www.kaggle.com/datasets/devendra416/ddos-datasets)**</br>
+Note: this CSV file is used for offline analysis but packet cature (.pcap) file are used for training and testing the application in real deployment **[link to the dataset list](./data/links-to-data.md)**
 
-- Run the Offline Analysis Report notebook to do the following: **[link to the dataset](./code/CSCE580%20-%20Offline%20Analysis%20Report.ipynb)**
+- Run the Offline Analysis Report notebook to do the following: **[link to the notebook](./code/CSCE580%20-%20Offline%20Analysis%20Report.ipynb)**
   - process the dataset
   - train and evaluate different models
   - select the best model and features for online analysis
   - build the model and generate the needed files for the online analysis
 
-- Run the Online Deployment notebook to do the following: **[link to the dataset](./code/P4DPDK-DDoS/Online-Deployment.ipynb)**
+- Run the Online Deployment notebook to do the following: **[link to the notebook](./code/P4DPDK-DDoS/Online-Deployment.ipynb)**
   - build an experimental slice in FABRIC
   - setup the environment requirements
   - configure the network topology
