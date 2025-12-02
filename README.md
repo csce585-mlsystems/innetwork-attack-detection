@@ -167,5 +167,6 @@ Note: this CSV file is used for offline analysis but packet cature (.pcap) file 
   - configure the network topology
   - run the application in hardware
 
-## Demo [Link to demo](./doc/Demo%20Milestone%20P2%20—%20Final%20Report%20and%20Presentation.mp4)    
+## Demo [Link to demo](./doc/Demo%20Milestone%20P2%20—%20Final%20Report%20and%20Presentation.mp4)
+<img src="./doc/Demo Milestone P2 — Final Report and Presentation.gif" width="1500">   
 ---
